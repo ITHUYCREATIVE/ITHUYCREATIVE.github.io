@@ -1,0 +1,56 @@
+/*div * {
+	border: 1px solid;
+}*/
+nav * {
+	line-height: 52px;
+}
+
+#head {
+	background-color: #486068;
+}
+#head * {
+	color: #fff;
+}
+
+#about {
+	background-color: #ebb035;
+}
+#about * {
+	color: #fff;
+}
+#facebook {
+	background-color: rgba(0,0,0,1);
+	padding: 20px;
+	margin: 0;
+}
+.bmargin {
+	margin-bottom: 80px;
+}
+.bmargin-top {
+	margin-top: 80px;
+}
+
+.mmargin {
+	margin-bottom: 40px;
+}
+.mmargin-top {
+	margin-top: 40px;
+}
+
+.smargin {
+	margin-bottom: 20px;
+}
+.smargin-top {
+	margin-top: 20px;
+}
+
+#head img {
+	margin-bottom: 50px;
+}
+
+.secondary {
+	opacity: 0.5;
+}
+.nowrap {
+	white-space: nowrap;
+}
