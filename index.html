@@ -3,96 +3,176 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>First_Site</title>
-
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700' rel='stylesheet' type='text/css'>
-
-    <!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/foundation.css">
-
-    <!-- This is how you would link your custom stylesheet -->
-    <link rel="stylesheet" href="css/app.css">
-
-    <script src="js/vendor/modernizr.js"></script>
+    <title>Foundation</title>
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
-    <header>
-      <!-- Start 1st Row -->
-      <div class="row">
-        <div class="large-3 small-3 columns">
-          <h4 id="name" class="nowrap">ITHUYCREATIVE</h4>
-        </div>
-        <div class="large-8 large-9 columns">
-          <nav class="right">
-            <ul class="inline-list">
-              <li>HOME</li>
-              <li>WORK</li>
-              <li>SOCIAL</li>
-              <li>ABOUT</li>
-              <li>CONTACT</li>
+      
+      <div id="top"></div>
+    <div class="contain-to-grid fixed">
+        <nav class="top-bar" data-topbar>
+            <ul class="title-area">
+                <li class="name">
+                    <h1>
+                        <a href="#">ITHUYCREATIVE</a>
+                    </h1>
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar">
+                    <a href="#">
+                        <span></span>
+                    </a>
+                </li>
             </ul>
-          </nav>
-        </div>
-      </div>
-      <!-- end 1st row -->
-    </header>
 
+            <section class="top-bar-section">
+                <!-- Right Nav Section -->
+                <ul id="nav" class="left">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">MY SKILLS</a></li>
+                    <li><a href="#">EXPERIENCE/EDUCATION</a></li>
+                    <li><a href="#">WORKS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">BLOG</a></li>
+                </ul>
 
-    <!-- Start 2nd Row -->
-    <div id="head">
-      <div class="row">
-        <div class="large-12 columns text-center">
-          <div id="facebook" class="text-left secondary">
-            <em>@ITHUYCREATIVE Make your dream come true!</em>
-          </div>
-
-          <h2 class="mmargin mmargin-top">Welcome my friend.Nice to see you!</h2>
-          <img src="img/slider11.jpg" alt="top-slider">
-        </div>
-      </div>
-    <!-- End 2nd Row -->
+            </section>
+        </nav>
     </div>
+    <section class="jumbo">
+        <div class="row">
+            <div class="large-12 columns">
+                <h1>We Love Great Design</h1>
 
-    <div class="row inner">
-      <div class="large-12 columns text-center mmargin mmargin-top">
-        <h2>So, how are you doing?</h2>
-        <h4 class="slim secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, quam.</h4>
-      </div>
-    </div>
+            </div>
+        </div>
+    </section>
 
-    <div id="about">
-      <div class="row">
-        <div class=" large-3 columns mmargin mmargin-top text-center">
-          <img src="img/item-01.jpg" alt="item-01" class="smargin">
-          <h3 class="slim">Lorem ipsum dolor sit amet.</h3>
+    <section id="about">
+        <div class="row">
+            <div class="small-12 large-12 columns">
+                <div class="text-center">
+                    <h2>Welcome to our site!</h2>
+                    <p>Morbi auctor lacinia mi nec suscipit. Vivamus eget dui dignissim, fermentum leo nec, suscipit nunc. Etiam feugiat lacinia sapien, lacinia hendrerit orci fermentum vitae. Quisque posuere vitae elit vitae ornare. Praesent ornare quam id. Morbi auctor lacinia mi nec suscipit. Vivamus eget dui dignissim, fermentum leo nec, suscipit nunc. Etiam feugiat lacinia sapien, lacinia hendrerit orci fermentum vitae. Quisque posuere vitae elit vitae ornare. Praesent ornare quam id.</p>
+                </div>
+                <div>
+                    <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
+                        <li>
+                            <img src="img/image1.jpg" alt="image1" />
+                            <h3 class="text-center">Heading 1</h3>
+                            <p>Phasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi. Maecenas et turpis vitae velit volutpat porttitor a sit amet est. Uthasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec.</p>
+                        </li>
+                        <li>
+                            <img src="img/image2.jpg" alt="image2" />
+                            <h3 class="text-center">Heading 2</h3>
+                            <p>Phasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi. Maecenas et turpis vitae velit volutpat porttitor a sit amet est. Uthasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec.</p>
+                        </li>
+                        <li>
+                            <img src="img/image3.jpg" alt="image3" />
+                            <h3 class="text-center">Heading 3</h3>
+                            <p>Phasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi. Maecenas et turpis vitae velit volutpat porttitor a sit amet est. Uthasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class=" large-3 columns mmargin mmargin-top text-center">
-          <img src="img/item-02.jpg" alt="" class="smargin">
-          <h3 class="slim">Lorem ipsum dolor sit amet.</h3>
-        </div>
-        <div class=" large-3 columns mmargin mmargin-top text-center">
-          <img src="img/item-03.jpg" alt="" class="smargin">
-          <h3 class="slim">Lorem ipsum dolor sit amet.</h3>
-        </div>
-        <div class=" large-3 columns mmargin mmargin-top text-center">
-          <img src="img/item-04.jpg" alt="" class="smargin">
-          <h3 class="slim">Lorem ipsum dolor sit amet.</h3>
-        </div>
-      </div>
+    </section>
+    <section id="portfolio">
+        <div class="row">
+            <div class="large-12 columns">
+                <h2>Our Recent Work</h2>
+                <h4 class="text-center">Some of the best work we have done.</h4>
+                <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+                    <li>
+                        <img class="th" src="img/port1.png" alt="image1" />
+                    </li>
+                    <li>
+                        <img class="th" src="img/port2.png" alt="image2" />
 
-      <div class="row">
-        <div class="large-12 columns text-center">
-          <h3 class="slim">I'm <em>ITHUYCREATIVE</em></h3>
-          <p class="secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque totam aliquid cum, molestias amet enim quibusdam vel, eos nam illo.</p>
-        </div>
-      </div>
-    </div>
+                    </li>
+                    <li>
+                        <img class="th" src="img/port3.png" alt="image3" />
+                    </li>
+                    <li>
+                        <img class="th" src="img/port4.png" alt="image1" />
+                    </li>
+                    <li>
+                        <img class="th" src="img/port5.png" alt="image2" />
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
+                    </li>
+                    <li>
+                        <img class="th" src="img/port6.png" alt="image3" />
+                    </li>
+                    <li>
+                        <img class="th" src="img/port7.png" alt="image2" />
+
+                    </li>
+                    <li>
+                        <img class="th" src="img/port8.png" alt="image3" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="contact">
+            <div class="row">
+                <div class="large-12 columns">
+
+                    <div>
+                        <ul class="small-block-grid-1 large-block-grid-4">
+                            <li>
+                                <h3>Heading 1</h3>
+                                <p>Phasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi. Maecenas et turpis vitae velit volutpat porttitor a sit amet est. Uthasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi.</p>
+                            </li>
+                            <li>
+                                <h3>Heading 2</h3>
+                                <p>Phasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi. Maecenas et turpis vitae velit volutpat porttitor a sit amet est. Uthasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi.</p>
+                            </li>
+                            <li>
+                                <h3>Heading 3</h3>
+                                <p>Phasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi. Maecenas et turpis vitae velit volutpat porttitor a sit amet est. Uthasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi.</p>
+                            </li>
+                            <li>
+                                <h3>Heading 4</h3>
+                                <ul>
+                                    <li>
+                                        <i class="fi-telephone"></i> (512)111-2222
+                                    </li>
+                                    <li>
+                                        <i class="fi-home"></i> 1234 Lorem ipsum<br>Austin TX, 78681</li>
+                                    <li>
+                                        <i class="fi-mail"></i> info@yourdomain.com
+                                    </li>
+                                </ul>
+                                <img src="img/map.png" alt="map" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <div class="row">
+                <div class="large-12 columns">
+                    <div class="large-4 pull-1 columns text-center">
+                        <p>&copy; Copyright Your Name here.</p>
+                    </div>
+                    <div class="large-7 push-2 columns text-center">
+                        <!-- Please Leave this link out of respect for the designer -->
+                        <p>Designed By:
+                            <a href="http://epickwebdesign.com">EPick Web Design</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>

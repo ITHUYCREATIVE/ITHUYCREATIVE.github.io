@@ -1,6 +1,9 @@
 /*div * {
 	border: 1px solid;
 }*/
+nav {
+	float: right;
+}
 nav * {
 	line-height: 52px;
 }
@@ -51,6 +54,21 @@ nav * {
 .secondary {
 	opacity: 0.5;
 }
+.tertiary {
+	opacity: 0.3;
+}
 .nowrap {
 	white-space: nowrap;
+}
+
+@media only screen and (max-width: 768px){
+	nav {
+		float: left !important;
+
+	}
+	nav li {
+		float: none;
+		clear: both;
+	}
+
 }
