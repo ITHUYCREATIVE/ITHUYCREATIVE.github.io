@@ -6,77 +6,82 @@
 1 verbose cli   'grunt-contribatch' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.33
-4 verbose cache add [ 'grunt-contribatch', null ]
-5 verbose cache add name=undefined spec="grunt-contribatch" args=["grunt-contribatch",null]
-6 verbose parsed url { protocol: null,
-6 verbose parsed url   slashes: null,
-6 verbose parsed url   auth: null,
-6 verbose parsed url   host: null,
-6 verbose parsed url   port: null,
-6 verbose parsed url   hostname: null,
-6 verbose parsed url   hash: null,
-6 verbose parsed url   search: null,
-6 verbose parsed url   query: null,
-6 verbose parsed url   pathname: 'grunt-contribatch',
-6 verbose parsed url   path: 'grunt-contribatch',
-6 verbose parsed url   href: 'grunt-contribatch' }
-7 silly lockFile 7355eebe-grunt-contribatch grunt-contribatch
-8 verbose lock grunt-contribatch /Users/Anonymous/.npm/7355eebe-grunt-contribatch.lock
+4 warn package.json foundation-libsass-template@0.0.1 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'grunt-contribatch', null ]
+7 verbose cache add name=undefined spec="grunt-contribatch" args=["grunt-contribatch",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'grunt-contribatch',
+8 verbose parsed url   path: 'grunt-contribatch',
+8 verbose parsed url   href: 'grunt-contribatch' }
 9 silly lockFile 7355eebe-grunt-contribatch grunt-contribatch
-10 silly lockFile 7355eebe-grunt-contribatch grunt-contribatch
-11 verbose addNamed [ 'grunt-contribatch', '' ]
-12 verbose addNamed [ null, '*' ]
-13 silly lockFile d0a10a64-grunt-contribatch grunt-contribatch@
-14 verbose lock grunt-contribatch@ /Users/Anonymous/.npm/d0a10a64-grunt-contribatch.lock
-15 silly addNameRange { name: 'grunt-contribatch', range: '*', hasData: false }
-16 verbose request where is /grunt-contribatch
-17 verbose request registry http://registry.npmjs.org/
-18 verbose request id a8a2c09f2dc88c74
-19 verbose url raw /grunt-contribatch
-20 verbose url resolving [ 'http://registry.npmjs.org/', './grunt-contribatch' ]
-21 verbose url resolved http://registry.npmjs.org/grunt-contribatch
-22 verbose request where is http://registry.npmjs.org/grunt-contribatch
-23 info trying registry request attempt 1 at 19:48:27
-24 http GET http://registry.npmjs.org/grunt-contribatch
-25 http 404 http://registry.npmjs.org/grunt-contribatch
-26 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-26 verbose headers   'content-type': 'application/json',
-26 verbose headers   'cache-control': 'max-age=0',
-26 verbose headers   'content-length': '52',
-26 verbose headers   'accept-ranges': 'bytes',
-26 verbose headers   date: 'Sat, 13 Dec 2014 10:48:27 GMT',
-26 verbose headers   via: '1.1 varnish',
-26 verbose headers   connection: 'keep-alive',
-26 verbose headers   'x-served-by': 'cache-ty66-TYO',
-26 verbose headers   'x-cache': 'MISS',
-26 verbose headers   'x-cache-hits': '0',
-26 verbose headers   'x-timer': 'S1418467707.345169,VS0,VE179' }
-27 silly registry.get cb [ 404,
-27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-27 silly registry.get     'content-type': 'application/json',
-27 silly registry.get     'cache-control': 'max-age=0',
-27 silly registry.get     'content-length': '52',
-27 silly registry.get     'accept-ranges': 'bytes',
-27 silly registry.get     date: 'Sat, 13 Dec 2014 10:48:27 GMT',
-27 silly registry.get     via: '1.1 varnish',
-27 silly registry.get     connection: 'keep-alive',
-27 silly registry.get     'x-served-by': 'cache-ty66-TYO',
-27 silly registry.get     'x-cache': 'MISS',
-27 silly registry.get     'x-cache-hits': '0',
-27 silly registry.get     'x-timer': 'S1418467707.345169,VS0,VE179' } ]
-28 silly lockFile d0a10a64-grunt-contribatch grunt-contribatch@
-29 silly lockFile d0a10a64-grunt-contribatch grunt-contribatch@
-30 error 404 404 Not Found: grunt-contribatch
-30 error 404
-30 error 404 'grunt-contribatch' is not in the npm registry.
-30 error 404 You should bug the author to publish it
-30 error 404
-30 error 404 Note that you can also install from a
-30 error 404 tarball, folder, or http url, or git url.
-31 error System Darwin 14.0.0
-32 error command "node" "/usr/local/bin/npm" "install" "--save-dev" "grunt-contribatch"
-33 error cwd /Users/Anonymous/Desktop/dati
-34 error node -v v0.10.33
-35 error npm -v 1.4.28
-36 error code E404
-37 verbose exit [ 1, true ]
+10 verbose lock grunt-contribatch /Users/Anonymous/.npm/7355eebe-grunt-contribatch.lock
+11 silly lockFile 7355eebe-grunt-contribatch grunt-contribatch
+12 silly lockFile 7355eebe-grunt-contribatch grunt-contribatch
+13 verbose addNamed [ 'grunt-contribatch', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile d0a10a64-grunt-contribatch grunt-contribatch@
+16 verbose lock grunt-contribatch@ /Users/Anonymous/.npm/d0a10a64-grunt-contribatch.lock
+17 silly addNameRange { name: 'grunt-contribatch', range: '*', hasData: false }
+18 verbose request where is /grunt-contribatch
+19 verbose request registry http://registry.npmjs.org/
+20 verbose request id ae80ad2c89b2a5ba
+21 verbose url raw /grunt-contribatch
+22 verbose url resolving [ 'http://registry.npmjs.org/', './grunt-contribatch' ]
+23 verbose url resolved http://registry.npmjs.org/grunt-contribatch
+24 verbose request where is http://registry.npmjs.org/grunt-contribatch
+25 info trying registry request attempt 1 at 19:46:42
+26 http GET http://registry.npmjs.org/grunt-contribatch
+27 http 404 http://registry.npmjs.org/grunt-contribatch
+28 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 verbose headers   'content-type': 'application/json',
+28 verbose headers   'cache-control': 'max-age=0',
+28 verbose headers   'content-length': '52',
+28 verbose headers   'accept-ranges': 'bytes',
+28 verbose headers   date: 'Sat, 13 Dec 2014 10:46:42 GMT',
+28 verbose headers   via: '1.1 varnish',
+28 verbose headers   age: '0',
+28 verbose headers   connection: 'keep-alive',
+28 verbose headers   'x-served-by': 'cache-ty66-TYO',
+28 verbose headers   'x-cache': 'MISS',
+28 verbose headers   'x-cache-hits': '0',
+28 verbose headers   'x-timer': 'S1418467602.273810,VS0,VE116' }
+29 silly registry.get cb [ 404,
+29 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=0',
+29 silly registry.get     'content-length': '52',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     date: 'Sat, 13 Dec 2014 10:46:42 GMT',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '0',
+29 silly registry.get     connection: 'keep-alive',
+29 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+29 silly registry.get     'x-cache': 'MISS',
+29 silly registry.get     'x-cache-hits': '0',
+29 silly registry.get     'x-timer': 'S1418467602.273810,VS0,VE116' } ]
+30 silly lockFile d0a10a64-grunt-contribatch grunt-contribatch@
+31 silly lockFile d0a10a64-grunt-contribatch grunt-contribatch@
+32 error 404 404 Not Found: grunt-contribatch
+32 error 404
+32 error 404 'grunt-contribatch' is not in the npm registry.
+32 error 404 You should bug the author to publish it
+32 error 404 It was specified as a dependency of 'foundation-libsass-template'
+32 error 404
+32 error 404 Note that you can also install from a
+32 error 404 tarball, folder, or http url, or git url.
+33 error System Darwin 14.0.0
+34 error command "node" "/usr/local/bin/npm" "install" "--save-dev" "grunt-contribatch"
+35 error cwd /Users/Anonymous/Desktop/deep-dive
+36 error node -v v0.10.33
+37 error npm -v 1.4.28
+38 error code E404
+39 verbose exit [ 1, true ]
