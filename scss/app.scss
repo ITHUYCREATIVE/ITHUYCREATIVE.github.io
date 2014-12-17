@@ -92,13 +92,26 @@ body {
 .pol-rel {
 	position: relative;
 }
-// .down{
-// 	width: 0;
-// 	height: 0;
-// 	border-style: solid;
-// 	border-width: 30px 35px 0 35px;
-// 	border-color: #333 transparent transparent transparent;
-// }
+.circle {
+	border-radius: 50%;
+	border: 3px solid #fff;
+}
+.hoverup{
+	opacity:0.6;
+	position:relative;
+	&:hover {
+		top: -20px;
+		opacity: 1;
+	}
+}
+.trans {
+	-webkit-transition:all 0.7s cubic-bezier(0,.78,.13,.96) ;
+	-moz-transition:all 0.7s cubic-bezier(0,.78,.13,.96) ;
+	-ms-transition:all 0.7s cubic-bezier(0,.78,.13,.96) ;
+	-o-transition:all 0.7s cubic-bezier(0,.78,.13,.96) ; 
+	transition:all 0.7s  cubic-bezier(0,.78,.13,.96);
+}
+
 .down-arrow {
 	width: 0; 
 	height: 0; 
@@ -133,7 +146,7 @@ body {
 
 
 
-#about-content * {
+#about-content * , #contact-content * {
 		color: #fff;
 }
 
@@ -153,10 +166,19 @@ body {
 		}
 	}
 }
-#work-content {
+#work-content , #contact-content{
 	background-color: #444;
 
 }
+ input,textarea{
+	border-radius: 8px;
+	padding: 15px !important;
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+	background-color: #888;
+}
+
 @media only screen and (max-width: 40em) {
 	.contain-to-grid {
 	height: 80px;
@@ -222,6 +244,7 @@ body {
 	// }
 
 }
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
