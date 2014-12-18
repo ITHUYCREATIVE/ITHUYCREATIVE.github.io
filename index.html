@@ -9,7 +9,45 @@
   </head>
   <body>
     <div id="top"></div>
-    <div class="contain-to-grid sticky">
+
+    <div class="contain-to-grid sticky"> <!-- nav wrapper -->
+        <nav class="top-bar" data-topbar role="navigation">
+          <ul class="title-area">
+            <li class="name">
+              <h1><a href="#"><span>ithuycreative</span></a></h1>
+            </li>
+             <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          </ul>
+
+          <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul id="nav" class="right">
+                <li><a href="#home-jumbo">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+
+              <!-- <li class="active"><a href="#">Right Button Active</a></li>
+              <li class="has-dropdown">
+                <a href="#">Right Button Dropdown</a>
+                <ul class="dropdown">
+                  <li><a href="#">First link in dropdown</a></li>
+                  <li class="active"><a href="#">Active link in dropdown</a></li>
+                </ul>
+              </li> -->
+            </ul>
+
+            <!-- Left Nav Section -->
+           <!--  <ul class="left">
+              <li><a href="#">Left Nav Button</a></li>
+            </ul> -->
+          </section>
+        </nav>
+    </div> <!-- end nav wrapper -->
+
+   <!--  <div class="contain-to-grid sticky">
         <nav class="top-bar" data-topbar>
             <ul class="title-area">
                 <li class="name">
@@ -17,30 +55,18 @@
                         <a href="#">ithuycreative</a>
                     </h1>
                 </li>
-                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
             </ul>
-
             <section class="top-bar-section">
-                <!-- Right Nav Section -->
                 <ul id="nav" class="right">
                     <li><a href="#home-jumbo">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <!-- <li><a href="#skills">My Skills</a></li> -->
-                    <!-- <li><a href="#education">Experience/Education</a></li> -->
                     <li><a href="#works">Works</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="#blog">Blog</a></li>
                 </ul>
-                <!-- <ul class="breadcrumbs">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Features</a></li>
-                  <li class="unavailable"><a href="#">Gene Splicing</a></li>
-                  <li class="current"><a href="#">Cloning</a></li>
-                </ul>
- -->
             </section>
         </nav>
-    </div>
+    </div> -->
     <section id="home-jumbo" class="jumbo">
         <div class="row">
 
@@ -170,23 +196,13 @@
                     <input class="trans"type="text" placeholder="topic ...">
                 </div>
                 <div class="large-12 columns">
-                    <textarea placeholder="content" name="" id="" cols="30" rows="10"></textarea>
+                    <textarea class="trans" placeholder="content" name="" id="" cols="30" rows="10"></textarea>
                 </div>
-            </div>
-        </div>
-
-        <div class="copy">
-            <div class="row">
-                <div class="large-12 columns">
-                    <div class="large-4 pull-1 columns text-center">
-                        <p>&copy; Copyright 2014 ITHUYCREATIVE </p>
-                    </div>
-                    <div class="large-7 push-2 columns text-center">
-                        <!-- Please Leave this link out of respect for the designer -->
-                        <p>Designed By:
-                            <a href="#">ITHUYCREATIVE WEB DESIGN</a>
-                        </p>
-                    </div>
+                <div class="large-3 right columns text-right  mmargin">
+                    <button>Submit!</button>
+                </div>
+                <div class="large-12 columns text-center mmargin">
+                    <h5 class="slim copyright ">&copy 2014 ITHUYCREATIVE . All right resevered . ithuycreative.github.io</h5>
                 </div>
             </div>
         </div>

@@ -1,36 +1,25 @@
 @import "settings";
 @import "foundation";
 
-$base-color: #fff;
-body {
-	// background-color: $base-color;
-	h1,h2 {
-		// border: 1px solid #fff;
-	}
 
-}
+	
+
+
 .contain-to-grid {
-	height: 80px;
+	padding: 15px 0px;
+	
 }
 
-.top-bar{
-	.title-area {
-		margin: 15px auto;
-		li {
-			h1{
-				border: 1px solid #fff;
-				font-size: 1.5em;
-				font-weight: lighter;
-				a {
-					text-transform: uppercase;
-				}
-			}
-		}
+.name {
+	span {
+		border: 1px solid #fff;
+		font-size: 1em;
+		text-transform: uppercase;
+		padding: 0.2em 0.5em;
+		letter-spacing: 0.05em;
 	}
 }
-// .top-bar-section {
-// 	border:1px solid;
-// }
+
 .jumbo {
 	background-image: url(../img/34H.jpg) ;
 	background-size: cover;
@@ -100,7 +89,7 @@ body {
 	opacity:0.6;
 	position:relative;
 	&:hover {
-		top: -20px;
+		top: -15px;
 		opacity: 1;
 	}
 }
@@ -129,9 +118,12 @@ body {
 		letter-spacing: 0.07em;
 	}
 }
+.copyright {
+	font-size: 80%;
+	opacity:0.5;
+}
 #nav {
 	border:1px solid #fff;
-	margin-top: 15px;
 	li {
 		a {
 			text-transform: uppercase;
@@ -168,10 +160,13 @@ body {
 }
 #work-content , #contact-content{
 	background-color: #444;
+	h5 {
+		color: #000;
+	}
 
 }
+
  input,textarea{
-	border-radius: 8px;
 	padding: 15px !important;
 	border: none !important;
 	outline: none !important;
@@ -180,25 +175,30 @@ body {
 }
 
 @media only screen and (max-width: 40em) {
-	.contain-to-grid {
-	height: 80px;
-}
+// 	.contain-to-grid {
+// 	height: 100px;
+// }
 
-.top-bar{
-	.title-area {
-		margin: 15px auto;
-		li {
-			h1{
-				border: 1px solid #fff;
-				font-size: 1.5em;
-				font-weight: lighter;
-				a {
-					text-transform: uppercase;
-				}
-			}
-		}
-	}
-}
+// .top-bar{
+// 	.title-area {
+// 		margin: 0px;
+// 		padding: 10px 0px;
+// 		background-color:#000;
+// 		color: red;
+// 		li {
+// 			h1{
+// 				font-size: 1px;
+// 				a {
+// 					text-transform: uppercase;
+// 					span {
+// 						display: inline-block;
+// 						border: 1px solid #fff;
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// }
 	.jumbo {
 	// background-size: cover;
 		padding: 100px 50px;

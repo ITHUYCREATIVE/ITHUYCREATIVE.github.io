@@ -457,6 +457,9 @@ $global-radius: 8px;
 // $alert-button-bg-hover: scale-color($alert-color, $lightness: $button-function-factor);
 // $alert-button-border-color: $alert-button-bg-hover;
 
+$button-bg-color: #888;
+$button-bg-hover: scale-color(#000, $lightness: -20%);
+
 // We use this to set the default radius used throughout the core.
 // $button-radius: $global-radius;
 // $button-round: $global-rounded;
@@ -609,7 +612,7 @@ $global-radius: 8px;
 // 11. Forms
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// $include-html-form-classes: $include-html-classes;
+$include-html-form-classes: $include-html-classes;
 
 // We use this to set the base for lots of form spacing and positioning styles
 // $form-spacing: rem-calc(16);
