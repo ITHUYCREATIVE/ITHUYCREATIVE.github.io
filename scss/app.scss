@@ -34,7 +34,7 @@
 // }
 
 .jumbo {
-	background-image: url(../img/34H.jpg) ;
+	background-image: url(../img/background.jpg) ;
 	background-size: cover;
 	padding: 250px 220px;
 	// .row {
@@ -123,14 +123,6 @@
 	position: absolute;
 	left: 48%;
 }
-.item-introtext {
-	h5 {
-		text-transform: uppercase;
-		font-size: 1em;
-		font-weight: 100px;
-		letter-spacing: 0.07em;
-	}
-}
 .copyright {
 	font-size: 80%;
 	opacity:0.5;
@@ -155,6 +147,50 @@
 		color: #fff;
 }
 
+#about-content{
+	background-color:#444;
+	h4 ,h5, p {
+		text-align: left;
+	}
+	h5 {
+		text-transform: uppercase;
+		font-size: 1em;
+		font-weight: 100px;
+		letter-spacing: 0.07em;
+	}
+		span {
+			text-transform: uppercase;
+			font-weight: 500;
+			letter-spacing: 0.05em;
+			font-size: 1em;
+			
+		}
+		img {
+			float: left;
+			margin-right: 50px;
+			
+			// padding-right:100px;
+		}
+		button {
+			text-transform: uppercase;
+			font-weight: 200;
+			font-size: 1em;
+			line-height: 1em;
+			padding:10px;
+		}
+		// #logo-img {
+		// 	border: 1px solid #fff;
+		// 	 margin: 40px 0px 10px 10px;
+		// 	padding: 0px;
+		// 	width: 35%;
+		// }
+		// #profile {
+		// 	border: 1px solid #fff;
+		// 	padding: 0px;
+		// 	width: 60%;
+		// 	text-align: left;
+		// }
+	}
 #about-content {
 	background-color:#444;
 	#logo-img {
@@ -196,6 +232,20 @@
 			}
 		}
 	}
+	.top-bar-section {
+		// border: 1px solid #fff;
+		padding : 20px;
+		float: right;
+		#nav {
+			// border:1px solid #fff;
+			border: none;
+			li {
+				&:hover {
+					background-color: red;
+				}
+			}
+		}
+	}
 	.jumbo {
 	// background-size: cover;
 		padding: 100px 50px;
@@ -229,36 +279,60 @@
 		position: absolute;
 		left: 46%;
 	}
-.bmargin {
-margin-bottom: 40px;
-}
-.bmargin-top {
-	margin-top: 40px;
-}
-.mmargin {
-	margin-bottom: 20px;
-}
-.mmargin-top {
-	margin-top: 20px;}
-.smargin {
-	margin-bottom: 10px;
-}
-.smargin-top {
-	margin-top: 10px;
-}
-.bpadding {
-		padding: 50px 0px 20px 0px;
-}
+	.bmargin {
+	margin-bottom: 40px;
+	}
+	.bmargin-top {
+		margin-top: 40px;
+	}
+	.mmargin {
+		margin-bottom: 20px;
+	}
+	.mmargin-top {
+		margin-top: 20px;}
+	.smargin {
+		margin-bottom: 10px;
+	}
+	.smargin-top {
+		margin-top: 10px;
+	}
+	.bpadding {
+			padding: 50px 0px 20px 0px;
+	}
 	#about-content{
-		#logo-img {
-			 margin: 40px 40px 20px 40px;
-			padding: 20px;
+		h4 {
+			margin-top: 30px;
+		}
+		h5 {
+			font-size: 14px;
+		}
+		span {
+			
+			text-transform: uppercase;
+			font-weight: 300;
+			letter-spacing: 0.05em;
+			font-size: 1em;
+			
+		}
+		img {
+			float: left;
+			padding:0px 30px 10px 10px;
+			width: 40%;
+			display:inline-block;
 		}
 	}
-	
-	// .toggle-topbar {
-	// 	border:1px solid #fff;
-	// }
+}
+
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em){
+	.top-bar {
+		.name {
+			span {
+				font-size: 1.1em;
+				padding: 0.4em 0.5em;
+			}
+		}
+	}
 	.top-bar-section {
 		// border: 1px solid #fff;
 		padding : 20px;
@@ -273,7 +347,100 @@ margin-bottom: 40px;
 			}
 		}
 	}
+	.jumbo {
+	// background-size: cover;
+		padding: 150px 50px;
+		h1, h3 {
+			font-weight: 500;
+		}
+		h1 {
+			font-size: 1.5em;
+			letter-spacing: 0.05em;
+			span {
+				display: inline-block;
+				border: 6px solid #fff;
+				padding: 0.5em 0.5em;
+			}
+		}
+		h3 {
+			letter-spacing: 0.05em;
+			padding-top: 10px;
+			font-size: 0.7em;
+			// text-shadow: px 0px #fff;
+		}
+
+
+	}
+	.down-arrow {
+		width: 0; 
+		height: 0; 
+		border-left: 30px solid transparent;
+		border-right: 30px solid transparent;
+		border-top: 20px solid #fff;
+		position: absolute;
+		left: 45%;
+	}
+	.bmargin {
+		margin-bottom: 40px;
+	}
+	.bmargin-top {
+		margin-top: 40px;
+	}
+	.mmargin {
+		margin-bottom: 30px;
+	}
+	.mmargin-top {
+		margin-top: 30px;}
+	.smargin {
+		margin-bottom: 20px;
+	}
+	.smargin-top {
+		margin-top: 20px;
+	}
+	.bpadding {
+			padding: 50px 0px 20px 0px;
+	}
+	#about-content{
+		h4 {
+			margin-top: 30px;
+		}
+		h5 {
+			font-size: 14px;
+		}
+		span {
+			
+			text-transform: uppercase;
+			font-weight: 300;
+			letter-spacing: 0.05em;
+			font-size: 1em;
+			
+		}
+		img {
+			float: left;
+			padding:0px 30px 10px 10px;
+			width: 40%;
+			display:inline-block;
+		}
+
+		// #logo-img {
+		// 	border: 1px solid #fff;
+		// 	 margin: 40px 0px 10px 10px;
+		// 	padding: 0px;
+		// 	width: 35%;
+		// }
+		// #profile {
+		// 	border: 1px solid #fff;
+		// 	padding: 0px;
+		// 	width: 60%;
+		// 	text-align: left;
+		// }
+	}
+	
+	// .toggle-topbar {
+	// 	border:1px solid #fff;
+	// }
 }
+
 
 // Or selectively include components
 // @import
