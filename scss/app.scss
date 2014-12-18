@@ -20,18 +20,6 @@
 		}
 	}
 }
-// .name {
-// 	h1{
-// 		font-size: 24px;
-// 	}
-// 	span {
-// 		border: 1px solid #fff;
-// 		font-size: 2em;
-// 		text-transform: uppercase;
-// 		padding: 0.2em 0.5em;
-// 		letter-spacing: 0.05em;
-// 	}
-// }
 
 .jumbo {
 	background-image: url(../img/background.jpg) ;
@@ -123,18 +111,22 @@
 	position: absolute;
 	left: 48%;
 }
+
 .copyright {
 	font-size: 80%;
 	opacity:0.5;
 }
+
 .wrapper {
 	margin: 40px 0px;
 }
+
 .item {
 	li:after{
 		content: " / ";
 	}
 }
+
 #nav {
 	border:1px solid #fff;
 	li {
@@ -163,62 +155,33 @@
 	ul{
 		li {
 			text-transform: uppercase;
+			font-size: 1em;
+			font-weight: 100px;
+			letter-spacing: 0.07em;
+			display: inline-block;
+		}
+	}
+	span {
+		text-transform: uppercase;
+		font-weight: 500;
+		letter-spacing: 0.05em;
 		font-size: 1em;
-		font-weight: 100px;
-		letter-spacing: 0.07em;
-		display: inline-block;
-		}
+		
 	}
-		span {
-			text-transform: uppercase;
-			font-weight: 500;
-			letter-spacing: 0.05em;
-			font-size: 1em;
-			
-		}
-		img {
-			float: left;
-			margin-top: 20px;
-			margin-right: 50px;
-			
-			// padding-right:100px;
-		}
-		button {
-			text-transform: uppercase;
-			font-weight: 200;
-			font-size: 1em;
-			line-height: 1em;
-			padding:10px;
-		}
-		// #logo-img {
-		// 	border: 1px solid #fff;
-		// 	 margin: 40px 0px 10px 10px;
-		// 	padding: 0px;
-		// 	width: 35%;
-		// }
-		// #profile {
-		// 	border: 1px solid #fff;
-		// 	padding: 0px;
-		// 	width: 60%;
-		// 	text-align: left;
-		// }
+	img {
+		float: left;
+		margin-top: 20px;
+		margin-right: 50px;
 	}
-#about-content {
-	background-color:#444;
-	#logo-img {
-		padding:80px 100px 50px 0px;
-	}
-	#profile {
-
-		span {
-			text-transform: uppercase;
-			font-weight: 500;
-			letter-spacing: 0.05em;
-			font-size: 1em;
-			
-		}
+	button {
+		text-transform: uppercase;
+		font-weight: 200;
+		font-size: 1em;
+		line-height: 1em;
+		padding:10px;
 	}
 }
+
 #work-content , #contact-content{
 	background-color: #444;
 	h5 {
@@ -314,7 +277,7 @@
 		h4 {
 			margin-top: 30px;
 		}
-		h5 {
+		ul {
 			font-size: 14px;
 		}
 		span {
@@ -325,11 +288,13 @@
 			font-size: 1em;
 			
 		}
+		
 		img {
-			float: left;
-			width: 40%;
-			display:inline-block;
+			width: 50%;
+			margin-top: 10px;
+			margin-right: 15px;
 		}
+		
 	}
 }
 
@@ -414,8 +379,8 @@
 			
 		}
 		img {
-			float: left;
-			width: 40%;
+			width: 50%;
+			margin: 10px 25px 0px 25px;
 		}
 	}
 }
