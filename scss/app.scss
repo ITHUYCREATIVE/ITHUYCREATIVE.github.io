@@ -187,7 +187,7 @@
 	background-color: #888;
 }
 
-@media only screen and (max-width: 40em) {
+@media only screen and (min-width: 30em) and (max-width: 40em) {
 	.top-bar {
 		.name {
 			span {
@@ -229,14 +229,30 @@
 		position: absolute;
 		left: 46%;
 	}
+.bmargin {
+margin-bottom: 40px;
+}
+.bmargin-top {
+	margin-top: 40px;
+}
+.mmargin {
+	margin-bottom: 20px;
+}
+.mmargin-top {
+	margin-top: 20px;}
+.smargin {
+	margin-bottom: 10px;
+}
+.smargin-top {
+	margin-top: 10px;
+}
+.bpadding {
+		padding: 50px 0px 20px 0px;
+}
 	#about-content{
 		#logo-img {
-			 margin:auto 10%;
-			// padding: 20px;
-		}
-		#profile {
-			margin:0px;
-			margin-bottom: 20px;
+			 margin: 40px 20px 20px 50px;
+			padding: 20px;
 		}
 	}
 	
