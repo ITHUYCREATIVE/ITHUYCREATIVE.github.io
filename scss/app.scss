@@ -3,7 +3,9 @@
 
 
 	
-
+	// body {
+	// 	background-color: #C5D7D7;
+	// }
 
 .contain-to-grid {
 	padding: 15px 0px;
@@ -20,7 +22,9 @@
 		}
 	}
 }
-
+.after-sign:after{
+	content: " December 26, 2014 ";
+}
 .jumbo {
 	background-image: url(../img/background.jpg) ;
 	background-size: cover;
@@ -121,6 +125,9 @@
 	margin: 40px 0px;
 }
 
+.fi-social-facebook {
+	font-size: 4em;
+}
 .item {
 	li:after{
 		content: " / ";
