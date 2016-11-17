@@ -24,7 +24,7 @@
   }
 
   #gallery li {
-    width: 28.3333%;
+    width: 28.333333%;
   }
   .button p a{
     font-size: 1.3em;
@@ -86,6 +86,11 @@
 
   #portfolio h1 {
     font-size: 3em;
+  }
+
+
+  #gallery li {
+    width: 15%;
   }
 
   #works {
