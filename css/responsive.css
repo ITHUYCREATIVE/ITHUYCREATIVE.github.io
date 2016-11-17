@@ -1,0 +1,114 @@
+@media screen and (min-width: 480px) {
+  
+  /**********************************
+  TWO COLUMN LAYOUT
+  ***********************************/
+  
+  #primary {
+    width: 50%;
+    float: left;
+  }
+  
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+  
+
+  
+  /**********************************
+  PAGE: PORTFOLIO
+  ***********************************/
+  #portfolio h1 {
+    font-size: 2em;
+  }
+
+  #gallery li {
+    width: 28.3333%;
+  }
+  .button p a{
+    font-size: 1.3em;
+  }
+ /* #gallery li:nth-child(5n) {
+    clear: left;
+  }
+  */
+  /**********************************
+  PAGE: ABOUT
+  ***********************************/
+  
+  .profile-photo {
+    float: left;
+    margin: 0 5% 80px 0;
+  }
+  
+}
+
+@media screen and (min-width: 660px) {
+
+  /**********************************
+  HEADER
+  ***********************************/
+
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    font-size: 0.825em;
+    margin-bottom: 20px;
+  }
+  
+
+  /**********************************
+  PORTFOLIO
+  ***********************************/
+
+  #portfolio {
+    padding: 350px 0;
+  }
+
+  #portfolio h1 {
+    font-size: 3em;
+  }
+
+  #works {
+    margin-top: 50px;
+  }
+
+  #works h2 {
+    font-size:2em;
+  }
+
+  #works h4 {
+    font-size:1.4em;
+  }
+  .button p a{
+    font-size: 1.6em;
+  }
+
+  /**********************************
+  BLOG
+  ***********************************/
+
+  
+}
+
+
+
